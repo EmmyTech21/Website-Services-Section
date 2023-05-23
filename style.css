@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.banner{
+    
+    height: 350px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner p {
+    font-size: 22px;
+}
+
+.cta {
+      background:#aa2771 ;
+      padding: 10px 20px;
+      font-size: 20px;
+      margin: 5px 10px;
+      color: white;
+      cursor: pointer;
+      border-radius: 30px;
+}
+
+
+.services-con{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+img{
+    width: 2-0px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-p{
+    font-size: 20px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    padding: 40px 0;
+}
+
+p{
+    font-size: 22px;
+    font-weight: lighter;
+    width: 80%;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.btn{
+    background: antiquewhite;
+    border-radius: 50px;
+    padding: 10px 35px;
+    color: #333;
+    font-size: 20px;
+    width: 45%;
+}
+
+
+
+@media screen and (min-width: 875px) {
+       .banner p {
+           width: 40%;
+       }
+
+     .banner  h2{
+        font-size: 40px;
+       }
+
+       .sec-p{
+        width: 60%;
+       }
+
+.content{
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+}
